@@ -1,5 +1,5 @@
 services:
-  - type: task 
+  - type: "task" 
     name: rest-api-deploy
     env: docker
     buildCommand: npm run build
